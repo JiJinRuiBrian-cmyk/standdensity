@@ -1,0 +1,19 @@
+Package: standdensity
+Type: Package
+Title: Parameterized Stand Density Management Models
+Version: 0.2.0
+Author: Ji Jinrui [aut, cre]
+Maintainer: Ji Jinrui <jijinruibrian@icloud.com>
+Description: A parameterized, reusable and transferable stand density
+    management model. Given a species code, the package returns that species'
+    parameter equations, self-thinning line, density and stability
+    classification, predicted stand variables and density management diagram.
+    Seven classic relative-spacing SDMD species are included: Chinese fir,
+    pedunculate oak, radiata pine, sweet chestnut, birch, Douglas-fir in Spain
+    and sweet chestnut coppice. Local data can be used to fit and register
+    additional species or regions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: stats, graphics, grDevices
+RoxygenNote: 7.3.1
